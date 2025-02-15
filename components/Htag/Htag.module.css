@@ -1,0 +1,23 @@
+.h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 46px;
+  color: var(--black-light);
+}
+
+.h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 38px;
+  color: var(--black-light);
+}
+
+.h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  line-height: 24px;
+  color: var(--black-light);
+}

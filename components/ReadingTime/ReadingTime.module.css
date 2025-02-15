@@ -1,0 +1,14 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 4fr auto;
+  align-items: center;
+  font-size: 12px;
+  color: var(--primary);
+}
+
+.read {
+  display: grid;
+  grid-template-columns: auto 20px;
+  color: var(--blue);
+  align-items: center;
+}

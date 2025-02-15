@@ -1,0 +1,18 @@
+.category {
+  display: grid;
+  grid-template-columns: auto 4fr 15px 20px;
+  align-items: center;
+  font-size: 12px;
+  color: var(--gray-dark);
+  margin-bottom: 8px;
+}
+.date:before {
+  content: '•  ';
+  padding: 0 5px;
+  color: var(--primary);
+}
+
+.category svg:hover path {
+  stroke: var(--blue);
+  cursor: pointer;
+}
