@@ -1,7 +1,7 @@
 .category {
   display: grid;
-  grid-template-columns: auto 4fr 15px 20px;
-  align-items: center;
+  grid-template-columns: auto 1fr 15px 20px;
+  align-self: start;
   font-size: 12px;
   color: var(--gray-dark);
   margin-bottom: 8px;

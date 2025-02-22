@@ -1,0 +1,33 @@
+.button {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ghost {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #303030;
+  background-color: var(--white);
+}
+
+.like {
+  border: none;
+  background-color: var(--white);
+}
+
+.primary {
+  /* написать стили */
+}
+
+.ghost:hover {
+  border: 3px solid var(--blue);
+}
+
+.dark {
+  stroke: var(--white);
+  background-color: #303030;
+}
